@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-family: quicksand;
+}
+
+section {
+    padding:2rem 7%;
+}
+
+/* HEADER */
+
+header {
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 1px white solid;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    font-family: quicksand;
+}
+
+.navLinks li {
+    list-style: none;
+}
+
+.navLinks a:hover {
+    color: orange;
+}
+
+.portada {
+    background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1961&q=80);
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    font-size: x-large;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-align: center;
+}
+
+a {
+    padding: 5px;
+}
+
+/* FIN DE HEADER */
+
+/* Section Home */
+
+.home{
+    display: flex;
+}
+
+/* Fin section Home */
+
+/* Section Products*/
+
+.heading {
+    background-color: rgb(76, 76, 76);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    font-size: 50px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    border-radius: 20px;
+}
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding-top: 1.5rem;
+}
+
+.products .box-container .box{
+    text-align: center;
+    padding: 2rem;
+    border: 1px white solid;
+}
+
+.products .box-container .box .image{
+    padding: 2.5rem 0;
+}
+
+.products .box-container .box .content h3{
+    color: white;
+    font-size: 2.5rem;
+}
+/* Fin section products */
+
+/* Section Nosotros */
+
+.nosotros .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+}
+
+.nosotros .row .image{
+    flex:1 1 45rem;
+}
+
+.nosotros .row .image img{
+    width: 100%;
+}
+.nosotros .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.nosotros .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.nosotros .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+/* Fin de section nosotros */
+
+/* Section Menu */
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    padding-top: 1.5rem;
+}
+
+.menu .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:white 1px solid;    
+}
+
+.menu .box-container .box img{
+    height: 5rem;
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.menu .box-container .box:hover{
+    background:rgba(255, 255, 255, 0.501);
+}
+
+/* Fin Section Menu */
+
+/* Section Contacto */
+
+/* Fin Section contacto*/
+
+/*footer*/
+footer {
+    border-top: 1px white solid;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links ul{
+    display: flex;
+    justify-content: center;
+}
+
+.social-items {
+    list-style: none;
+    text-align: center;
+}
+
+.social-items {
+    padding: 1rem 2rem;
+    font-size: 20px; 
+    padding-bottom: 2rem;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
