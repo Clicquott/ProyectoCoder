@@ -22,6 +22,9 @@
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/108d7a8cbc.js" crossorigin="anonymous"></script>
 
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <title>Williams Coffee</title>
 
@@ -57,21 +60,21 @@
     </section>
     
     <section class="home" id="home">
-        <div class="card">
+        <div class="card" data-aos="flip-left">
             <img class="card-img-top" src="multimedia/granos-cafe-1.png" alt="">
             <div class="card-body">
               <h3 class="card-title">Somos tostadores</h3>
               <p class="card-text">Nuestros granos, son seleccionados y tostados por nosotros.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="flip-left">
             <img class="card-img-top" src="multimedia/taza-cafe-1.png" alt="">
             <div class="card-body">
               <h3 class="card-title">Pasion por el cafe</h3>
               <p class="card-text">Encontra ese momento ideal para hacer una pausa y disfrutar de un cafe.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="flip-left">
             <img class="card-img-top" src="multimedia/espresso.png" alt="">
             <div class="card-body">
               <h3 class="card-title">Equipo profresional</h3>
@@ -164,7 +167,7 @@
     <section class="nosotros" id="nosotros">
         <h1 class="heading"> Nosotros</h1>
         <div class="row">
-            <div class="image">
+            <div>
                 <img src="multimedia/taza-cafe-2.jpeg" alt="">
             </div>
             <div class="content">
@@ -203,6 +206,10 @@
         </div>
 </footer>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 
 </body>
