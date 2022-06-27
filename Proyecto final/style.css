@@ -30,6 +30,7 @@ header {
 
 .navLinks li {
     list-style: none;
+    /* font-size: 20px; */
 }
 
 .navLinks a:hover {
@@ -94,10 +95,16 @@ a {
     padding: 2.5rem 0;
 }
 
+.image:hover{
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
 .products .box-container .box .content h3{
     color: white;
     font-size: 2.5rem;
 }
+
 /* Fin section products */
 
 /* Section Nosotros */
